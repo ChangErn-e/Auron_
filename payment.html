@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JBL Go 4 Specifications</title>
+    <link rel="icon" type="image/png" href="img/A icon.png">
+    <link rel="stylesheet" href="payment.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="img/auron.png" alt="Auron Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="UTL-Specs.html">UTL-Field 7</a></li>
+            <li><a href="Era100.html">Era 100</a></li>
+            <li><a href="Ventura.html">Ventura 6</a></li>
+            <li><a href="Jbl.html">JBL Go 4</a></li>
+        </ul>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button>🔍</button>
+        </div>
+    </div>
+
+ <div class="payment-modal">
+    <div class="payment-content">
+        <span class="close-btn">&times;</span>
+        <h1 class="payTitle">Personal Information</h1>
+        <form action="data.php" method="POST">
+            <div class="form-group">
+                <label for="name">Name and Surname</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" class="payInput">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" name="phone" placeholder="+6012 345 6781" class="payInput" maxlength="13">
+            </div>
+            <div class="form-group">
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address" placeholder="Elton St 21 22-145" class="payInput">
+            </div>
+
+            <h1 class="payTitle card-title">Card Information</h1>
+            <div class="cardIcons">
+                <img src="./img/visa.png" width="40" alt="Visa" class="cardIcon">
+                <img src="./img/master.png" alt="Mastercard" width="40" class="cardIcon">
+            </div>
+            <div class="form-group">
+                <input type="text" name="card_number" class="payInput" placeholder="Card Number" maxlength="16">
+            </div>
+            <div class="cardInfo">
+                <input type="text" name ="expiry_month" placeholder="mm" class="payInput sm" maxlength="2">
+                <input type="text" name ="expiry_year" placeholder="yyyy" class="payInput sm" maxlength="4">
+                <input type="text" name ="cvv" placeholder="cvv" class="payInput sm">
+            </div>
+            <button type="submit" class="payButton">Checkout!</button>
+        </form>
+            <script src="./payment.js"></script>
+    </div>
+</div>

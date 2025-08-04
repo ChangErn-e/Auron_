@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JBL Go 4 Specifications</title>
+    <link rel="icon" type="image/png" href="img/A icon.png">
+    <link rel="stylesheet" href="Acton.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="img/auron.png" alt="Auron Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="UTL-Specs.html">UTL-Field 7</a></li>
+            <li><a href="Era100.html">Era 100</a></li>
+            <li><a href="Ventura.html">Ventura 6</a></li>
+            <li><a href="Jbl.html">JBL Go 4</a></li>
+            <li><a href="Acton.html">Acton III</a></li>
+        </ul>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button>🔍</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="product-detail">
+            <img id="productImage" src="img/Acton.png" data-src-brown="img/Acton.png" data-src-blue="img/Acton Blue.png" data-src-black="img/Acton Black.png" data-src-white="img/Acton White.png" alt="Acton III Speaker" class="product-image">
+            <div class="product-info">
+                <h1>Acton III</h1>
+                <h3 class="product-price">RM1600</h3>
+                <p>Compact Bluetooth speaker delivering room-filling sound</p>
+                
+                <div class="option-group">
+                    <label class="option-label">Color</label>
+                    <div class="color-options">
+                        <div class="color-circle brown selected" data-color="brown" onclick="changeColor('brown')"></div>
+                        <div class="color-circle navy" data-color="navy" onclick="changeColor('navy')"></div>
+                        <div class="color-circle black" data-color="black" onclick="changeColor('black')"></div>
+                        <div class="color-circle white" data-color="white" onclick="changeColor('white')"></div>
+                    </div>
+                </div>
+
+                <ul>
+                    <li>Height: 75.7 mm</li>
+                    <li>Weight: 2.85 kg</li>
+                    <li>Connectivity: Bluetooth 5.2</li>
+                    <li>Frequency Range: 45-20,000 Hz</li>
+                </ul>
+
+                <div class="product-buttons">
+                    <a href="payment.html" class="buy-now-btn">Buy Now!</a>
+                    <a href="index.html" class="btn">Back to Products</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">About Us</h1>
+                <ul class="fList">
+                    <li class="fListItem">Company</li>
+                    <li class="fListItem">Contact</li>
+                    <li class="fListItem">Careers</li>
+                    <li class="fListItem">Affiliates</li>
+                    <li class="fListItem">Stores</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Useful Links</h1>
+                <ul class="fList">
+                    <li class="fListItem">Support</li>
+                    <li class="fListItem">Refund</li>
+                    <li class="fListItem">FAQ</li>
+                    <li class="fListItem">Feedback</li>
+                    <li class="fListItem">Stories</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Products</h1>
+                <ul class="fList">
+                    <li class="fListItem">UTL-Field 7</li>
+                    <li class="fListItem">Era 100</li>
+                    <li class="fListItem">Ventura 6</li>
+                    <li class="fListItem">JBL Go 4</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Subscribe to our channel</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="your@email.com" class="fInput">
+                    <button class="fButton">Join!</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Follow Us</h1>
+                <div class="fIcons">
+                    <img src="./img/facebook.png" alt="Facebook" class="fIcon">
+                    <img src="./img/twitter.png" alt="Twitter" class="fIcon">
+                    <img src="./img/instagram.png" alt="Instagram" class="fIcon">
+                    <img src="./img/whatsapp.png" alt="Whatsapp" class="fIcon">
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <span class="copyright">@Auron. All rights reserved. 2025.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./Acton.js"></script>
+</body>
+</html>

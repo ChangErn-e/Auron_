@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Auron</title>
+    <link rel="icon" type="image/png" href="img/A icon.png">
+    <!-- Links to the external stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">
+            <img src="img/auron.png" alt="Auron Logo" />
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="UTL-Specs.html">UTL-Field 7</a></li>
+            <li><a href="Era100.html">Era 100</a></li>
+            <li><a href="Ventura.html">Ventura 6</a></li>
+            <li><a href="Jbl.html">JBL Go 4</a></li>
+            <li><a href="Acton.html">Acton III</a></li>
+        </ul>
+        <div class="right-nav-container">
+            <div class="search-bar">
+                <!-- The search input and button with unique IDs -->
+                <input type="text" id="searchInput" placeholder="Search..." />
+                <button id="searchButton">🔍</button>
+            </div>
+            <a href="admin.php" class="admin-link">Admin</a>
+        </div>
+    </div>
+
+    <!-- HERO Section with Video Background -->
+    <section class="hero">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="img/video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Experience Pure Sound. Anywhere.</h1>
+            <p>Introducing UTL-Field 7: Powerful sound, portable design, built for adventure.</p>
+            <div class="hero-buttons">
+                <a href="#features" class="btn">Learn More</a>
+                <a href="#buy" class="btn btn-primary">Buy Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features" id="features">
+        <div class="feature">
+            <img src="img/shield.png" alt="Durability">
+            <h3>Outdoor Durability</h3>
+            <p>Rugged and waterproof. Built to last in any environment.</p>
+        </div>
+        <div class="feature">
+            <img src="img/full-battery.png" alt="Battery">
+            <h3>24-Hour Battery</h3>
+            <p>Non-stop music wherever you go with long-lasting battery life.</p>
+        </div>
+        <div class="feature">
+            <img src="img/sound.png" alt="Bass">
+            <h3>Deep Bass</h3>
+            <p>Feel every beat with crystal-clear sound and rich bass.</p>
+        </div>
+        <div class="feature">
+            <img src="img/voice-command.png" alt="Voice Assistant">
+            <h3>Voice Assistant</h3>
+            <p>Control music and get updates hands-free with smart assistant.</p>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+        <h2>What People Are Saying</h2>
+        <div class="testimonial">
+            <p>"The sound quality is unmatched. I take it everywhere!"</p>
+            <span>- Alex T.</span>
+        </div>
+        <div class="testimonial">
+            <p>"Best portable speaker I’ve ever owned. Worth every penny."</p>
+            <span>- Jamie L.</span>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta" id="buy">
+        <h2>Ready to take the party anywhere?</h2>
+        <a href="#product1" class="order-button">Order Now</a>
+    </section>
+
+    <!-- PRODUCT CARDS -->
+    <div id="product-card-container">
+        <!-- UTL-Field 7 (Image on the left) -->
+<div id="product-card-container">
+    <!-- 1st: Image Left, Text Right -->
+    <section class="product-card">
+        <div class="product-card-image">
+            <img src="img/utlnew.png" alt="UTL-Field 7 Speaker" />
+        </div>
+        <div class="product-card-text">
+            <h2>UTL-Field 7✨</h2>
+            <p>Wireless Portable Speaker. Pre-order now for <span>exclusive rewards</span>.</p>
+            <div class="buttons">
+                <a href="UTL-Specs.html" class="btn">Learn More</a>
+                <a href="payment.html" class="btn btn-primary">Pre-Order</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2nd: Image Right, Text Left -->
+    <section class="product-card product-card-reverse">
+        <div class="product-card-image">
+            <img src="img/era100.png" alt="Era 100 Speaker" />
+        </div>
+        <div class="product-card-text">
+            <h2>Era 100</h2>
+            <p>An icon, remastered. Next-gen acoustics. New look. Now with Bluetooth®. Hear what you’ve been missing.</p>
+            <div class="buttons">
+                <a href="Era100.html" class="btn">Learn More</a>
+                <a href="payment.html" class="btn btn-primary">Pre-Order</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3rd: Image Left, Text Right -->
+    <section class="product-card">
+        <div class="product-card-image">
+            <img src="img/ventura.png" alt="Ventura 6 Speaker" />
+        </div>
+        <div class="product-card-text">
+            <h2>Ventura 6</h2>
+            <p>Ventura 6 Outdoor Speaker. The perfect companion for your outdoor adventures with a rugged, waterproof design.</p>
+            <div class="buttons">
+                <a href="Ventura.html" class="btn">Learn More</a>
+                <a href="payment.html" class="btn btn-primary">Pre-Order</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4th: Image Right, Text Left -->
+    <section class="product-card product-card-reverse">
+        <div class="product-card-image">
+            <img src="img/JBL go 4.png" alt="JBL Go 4 Speaker" />
+        </div>
+        <div class="product-card-text">
+            <h2>JBL Go 4</h2>
+            <p>JBL Go 4 ultra-portable Bluetooth speaker. Small size, big sound. Take your music with you wherever you go.</p>
+            <div class="buttons">
+                <a href="Jbl.html" class="btn">Learn More</a>
+                <a href="payment.html" class="btn btn-primary">Pre-Order</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5th: Image Left, Text Right -->
+    <section class="product-card">
+        <div class="product-card-image">
+            <img src="img/Acton.png" alt="Acton III Speaker" />
+        </div>
+        <div class="product-card-text">
+            <h2>Acton III</h2>
+            <p>Compact Bluetooth speaker delivering room-filling sound.</p>
+            <div class="buttons">
+                <a href="Acton.html" class="btn">Learn More</a>
+                <a href="payment.html" class="btn btn-primary">Pre-Order</a>
+            </div>
+        </div>
+    </section>
+</div>
+
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">About Us</h1>
+                <ul class="fList">
+                    <li class="fListItem">Company</li>
+                    <li class="fListItem">Contact</li>
+                    <li class="fListItem">Careers</li>
+                    <li class="fListItem">Affiliates</li>
+                    <li class="fListItem">Stores</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Useful Links</h1>
+                <ul class="fList">
+                    <li class="fListItem">Support</li>
+                    <li class="fListItem">Refund</li>
+                    <li class="fListItem">FAQ</li>
+                    <li class="fListItem">Feedback</li>
+                    <li class="fListItem">Stories</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Products</h1>
+                <ul class="fList">
+                    <li class="fListItem">UTL-Field 7</li>
+                    <li class="fListItem">Era 100</li>
+                    <li class="fListItem">Ventura 6</li>
+                    <li class="fListItem">JBL Go 4</li>
+                    <li class="fListItem">Acton III</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Subscribe to our channel</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="your@email.com" class="fInput"/>
+                    <button class="fButton">Join!</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Follow Us</h1>
+                <div class="fIcons">
+                    <img src="./img/facebook.png" alt="" class="fIcon"/>
+                    <img src="./img/twitter.png" alt="" class="fIcon"/>
+                    <img src="./img/instagram.png" alt="" class="fIcon"/>
+                    <img src="./img/whatsapp.png" alt="" class="fIcon"/>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <span class="copyright">@Auron. All rights reserved. 2025.</span>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Link to the external JavaScript file -->
+    <script src="search.js"></script>
+</body>
+</html>
